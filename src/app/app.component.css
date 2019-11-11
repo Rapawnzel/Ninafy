@@ -1,0 +1,56 @@
+#navbar{
+    position: absolute;
+    top:0;
+    left:0;
+    width:230px;
+    height: 100vh;
+    padding-top: 24px;
+    background: #050505;
+}
+
+.spotify-logo{
+    width: 131px;
+    color:white
+}
+
+#spotiLogo{
+
+    padding: 0 0 18px 24px;
+}
+
+.menuItem{
+    vertical-align: middle;
+    height: 40px;
+    padding: 0 0 0 24px;
+    color: #9D9C9C;
+}
+
+.selectedItem{
+    border-left: 4px solid #3EAD55;
+}
+.selectedMenuItem{
+    color:white;
+}
+
+.menuItemText{
+    font-family: 'MazzardL', sans-serif;
+    font-size: 18px;
+    margin-left:16px;
+    color: #9D9C9C;
+}
+
+.playlistMenu{
+    margin: 24px 20px 0 24px;
+    font-family: 'MazzardL', sans-serif;
+    color: #9D9C9C;
+}
+
+.playlistMenuTitle{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.addPlaylist{
+    margin-top:10px
+}

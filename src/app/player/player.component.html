@@ -1,1 +1,20 @@
-<p>player works!</p>
+<div id="songListComponent">
+    <!--Top Menu-->
+    <div id="songListContent">
+        <ul id="topNavbar">
+            <li class="selectedNavbarElement"><a routerLink="/home">seleccionados</a></li>
+            <li>podcasts</li>
+            <li>listas de éxitos</li>
+            <li>géneros y estados de ánimo</li>
+            <li>novedades</li>
+            <li>descubrir</li>
+        </ul>
+        <div class="list">
+            <div class="listHeader">
+                <img class="img-fluid" src="{{songList[id].imgurl}}">
+                <div class="songTitle">{{songList[id].name}}</div>
+                <div class="songArtist">{{songList[id].artist}}</div>
+            </div>
+        </div>
+    </div>
+</div>

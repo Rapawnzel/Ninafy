@@ -1,1 +1,44 @@
-<p>song-list works!</p>
+<div id="songListComponent">
+    <!--Top Menu-->
+    <div id="songListContent">
+        <ul id="topNavbar">
+            <li class="selectedNavbarElement">seleccionados</li>
+            <li>podcasts</li>
+            <li>listas de éxitos</li>
+            <li>géneros y estados de ánimo</li>
+            <li>novedades</li>
+            <li>descubrir</li>
+        </ul>
+        <!--Lists-->
+        <div class="list">
+            <div class="listHeader">
+                <div class="listTitle">
+                    {{songList["name"]}}
+                </div>
+            </div>
+            <div class="listElement col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 float-left"
+                *ngFor="let song of songList['listOfSongs']">
+                <div>
+                    <a routerLink="/play/{{song['id']}}"><img
+                            class="img-fluid col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-2" src="{{song.imgurl}}"></a>
+                </div>
+                <div class="songTitle">{{song.name}}</div>
+                <div class="songArtist">{{song.artist}}</div>
+            </div>
+            <div class="listHeader">
+                <div class="listTitle">
+                    {{songListTwo["name"]}}
+                </div>
+            </div>
+            <div class="listElement col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 float-left"
+                *ngFor="let song of songListTwo['listOfSongs']">
+                <div>
+                    <a routerLink="/play/{{song['id']}}"><img
+                            class="img-fluid col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-2" src="{{song.imgurl}}"></a>
+                </div>
+                <div class="songTitle">{{song.name}}</div>
+                <div class="songArtist">{{song.artist}}</div>
+            </div>
+        </div>
+    </div>
+</div>

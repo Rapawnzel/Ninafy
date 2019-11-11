@@ -1,0 +1,72 @@
+ul{
+    list-style-type:none;
+}
+
+
+#songListComponent{
+    font-family: 'MazzardL', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    width: 100vw;
+    height: 100vh;
+    background: #181818;
+    padding: 0 32px;
+}
+
+li{
+    padding: 5px 10px;
+    margin: 10px;
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #9D9C9C;
+}
+
+.selectedNavbarElement{
+    color: white;
+    border-bottom: 1px solid #3EAD55;
+}
+
+#songListContent{
+    padding: 20px 0px 12px 0px;
+    margin-left: 230px;
+}
+
+.listElement{
+    padding: 0 8px;
+}
+
+.songTitle{
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 14px;
+    margin: 12px 0 4px 0;
+    color: white;
+}
+
+.songArtist{
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 14px;
+    color: #9D9C9C;
+}
+
+.listTitle{
+    letter-spacing: 1px;
+    padding-left: 8px;
+    font-size: 44px;
+    color: white;
+}
+.list{
+    clear:both;
+}
+.listHeader{
+    display: table-cell;
+    vertical-align: middle;
+    height: 94px;
+}
+img{
+    padding: 0;
+    max-width: 300px;
+}
+
