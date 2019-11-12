@@ -15,42 +15,42 @@ export class DataService {
         "name": "Hurt Again",
         "artist": "Julia Michaels",
         "imgurl": "/assets/images/hurt-again.png",
-        "fileurl": ""
+        "src": "/assets/music/july.mp3"
       },
       {
         "id": 1,
         "name": "We Are ...",
         "artist": "Noah Cyrus, MØ",
         "imgurl": "/assets/images/we-are.jpg",
-        "fileurl": ""
+        "src": "/assets/music/july.mp3"
       },
       {
         "id": 2,
         "name": "Older",
         "artist": "Sasha Sloan",
         "imgurl": "/assets/images/older.jpg",
-        "fileurl": ""
+        "src": "/assets/music/july.mp3"
       },
       {
         "id": 3,
         "name": "Worst In Me",
         "artist": "Julia Michaels",
         "imgurl": "/assets/images/worst-in-me.jpg",
-        "fileurl": ""
+        "src": "/assets/music/july.mp3"
       },
       {
         "id": 4,
         "name": "Memories",
         "artist": "Maroon 5",
         "imgurl": "/assets/images/memories.jpg",
-        "fileurl": ""
+        "src": "/assets/music/july.mp3"
       },
       {
         "id": 5,
         "name": "July",
         "artist": "Noah Cyrus",
         "imgurl": "/assets/images/july.jpg",
-        "fileurl": ""
+        "src": "/assets/music/july.mp3"
       }
     ]
   };

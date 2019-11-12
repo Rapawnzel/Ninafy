@@ -14,7 +14,7 @@ const routerConfig: Routes = [  
 {"path" : "", "component" : SongListComponent}, 
 {"path" : "home", "component" : SongListComponent}, 
 {"path" : "play/:id", "component" : PlayerComponent},  
-{"path" : "*/*", "component" : SongListComponent}
+{"path" : "**", "component" : SongListComponent}
 ]
 
 @NgModule({

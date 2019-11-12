@@ -1,28 +1,32 @@
 # Ninafy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
+Ninafy is a SPA which imitates the functionality and aesthetics of the Spotify APP.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Ninafy's main feature is a functional music player that allows to user to listen to a track of choice.
 
-## Code scaffolding
+## How does Ninafy work?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ninafy's main content is a Home view where the user can see the different playlists of music available. 
+Then, it allows the user to click on a any of the playlists and access to an other playlist specific view. 
+Here, the user has the option to play a song of choice. 
 
-## Build
+## Stack
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Ninafy was build using the following technologies:
+· HTML
+· CSS
+· Typescript
+· Angular 8 
 
-## Running unit tests
+## How to use
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ninafy is fairly easy to use as it's main intention is to immitate Spotify. 
 
-## Running end-to-end tests
+## WIP
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-"# Ninafy" 
+This SPA is still a WIP, some of the upcoming features include:
+· Add specific playlist to playlist list.
+· Include song filter.
+· Create Mobile View

@@ -97,11 +97,26 @@ export class PlayerComponent implements OnInit {
       "src": "/assets/music/july.mp3"
     }
   ];
-
-
-  constructor(public _data: DataService) { }
-  //playingSong = this._data.playlistOne;
+  id:number;
   public playingSong: ISongInfo;
+
+  constructor(public _data: DataService, public _path: ActivatedRoute) { 
+    this.id = this._path.snapshot.params.id;
+    //this.playingSong = this._data.playlistOne;
+    this.playingSong = this.songList[this.id];
+  }
+  
+  /*
+   id:number;
+  listOfSongs : object;
+  public playingSong: object;
+
+  constructor(public _data: DataService, public _path: ActivatedRoute) { 
+    this.id = this._path.snapshot.params.id;
+    this.listOfSongs = this._data.playlistOne["listOfSongs"];
+    //this.playingSong = this._data.playlistOne["id"]
+    this.playingSong = this.songList["id"];
+  }*/
 
   ngOnInit(): void {
     //songTime
@@ -136,7 +151,6 @@ export class PlayerComponent implements OnInit {
     this.nowPlayingSongId = id;
     this.playingSong = this.songList[id];
     this.playingSong.duration = this.audioContainer.duration;
-    console.log(this.playingSong.duration)
     // this.playingSong.currentTime = this.audioContainer.currentTime;
   }
 

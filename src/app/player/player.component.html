@@ -12,9 +12,9 @@
         </ul>
         <div class="list">
             <div class="listHeader">
-                <img class="img-fluid" src="{{playingSong.cover}}">
-                <div class="songTitle">{{playingSong.name}}</div>
-                <div class="songArtist">{{playingSong.artist}}</div>
+                <img class="img-fluid" src="{{songList[id].cover}}">
+                <div class="songTitle">{{songList[id]["name"]}}</div>
+                <div class="songArtist">{{songList[id].artist}}</div>
             </div>
         </div>
     </div>
@@ -25,14 +25,14 @@
         <div class="music-player__now-playing">
           <div class="music-player__song-info">
             <div class="music-player__song-info-cover">
-              <img class="music-player__song-info-cover-img" [src]="playingSong.cover" alt="">
+              <img class="music-player__song-info-cover-img" [src]="songList[id].cover" alt="">
             </div>
             <div class="music-player__song-info-about">
               <div class="music-player__song-info-name">
-              <a class="music-player__song-info-link music-player__song-info-link--song-name" href="#">{{playingSong.name}}</a>
+              <a class="music-player__song-info-link music-player__song-info-link--song-name" href="#">{{songList[id].name}}</a>
               </div>
               <div class="music-player__song-info-artist">
-                <a class="music-player__song-info-link music-player__song-info-link--artist-name" href="#">{{playingSong.artist}}</a>
+                <a class="music-player__song-info-link music-player__song-info-link--artist-name" href="#">{{songList[id].artist}}</a>
               </div>
             </div>
           </div>
