@@ -484,43 +484,43 @@ let PlayerComponent = class PlayerComponent {
                 "id": 0,
                 "name": "Hurt Again",
                 "artist": "Julia Michaels",
-                "cover": "/assets/images/hurt-again.png",
-                "src": "/assets/music/hurt-again.mp3"
+                "cover": "./assets/images/hurt-again.png",
+                "src": "./assets/music/hurt-again.mp3"
             },
             {
                 "id": 1,
                 "name": "We Are ...",
                 "artist": "Noah Cyrus, MØ",
-                "cover": "/assets/images/we-are.jpg",
-                "src": "/assets/music/we-are.mp3"
+                "cover": "./assets/images/we-are.jpg",
+                "src": "./assets/music/we-are.mp3"
             },
             {
                 "id": 2,
                 "name": "Older",
                 "artist": "Sasha Sloan",
-                "cover": "/assets/images/older.jpg",
-                "src": "/assets/music/older.mp3"
+                "cover": "./assets/images/older.jpg",
+                "src": "./assets/music/older.mp3"
             },
             {
                 "id": 3,
                 "name": "Worst In Me",
                 "artist": "Julia Michaels",
-                "cover": "/assets/images/worst-in-me.jpg",
-                "src": "/assets/music/worst-in-me.mp3"
+                "cover": "./assets/images/worst-in-me.jpg",
+                "src": "./assets/music/worst-in-me.mp3"
             },
             {
                 "id": 4,
                 "name": "Memories",
                 "artist": "Maroon 5",
-                "cover": "/assets/images/memories.jpg",
-                "src": "/assets/music/memories.mp3"
+                "cover": "./assets/images/memories.jpg",
+                "src": "./assets/music/memories.mp3"
             },
             {
                 "id": 5,
                 "name": "July",
                 "artist": "Noah Cyrus",
-                "cover": "/assets/images/july.jpg",
-                "src": "/assets/music/july.mp3"
+                "cover": "./assets/images/july.jpg",
+                "src": "./assets/music/july.mp3"
             }
         ];
         this.id = this._path.snapshot.params.id;
